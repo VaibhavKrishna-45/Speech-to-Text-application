@@ -30,7 +30,7 @@ On macOS or Linux, activate with `source .venv/bin/activate` instead. The first 
 ## Run
 
 ```powershell
-python -m SRC.main
+python -m src.main
 ```
 
 Open the local URL printed by Gradio, upload or record audio, optionally choose a language, then click the matching transcribe button. Clear resets the form.
@@ -43,7 +43,7 @@ WAV, MP3, M4A, and FLAC are accepted. Other formats may work depending on the FF
 
 ```text
 SPEECH-TEXT/
-├── SRC/
+├── src/
 │   ├── main.py
 │   ├── interface.py
 │   ├── transcription.py
